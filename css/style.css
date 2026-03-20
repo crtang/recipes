@@ -67,6 +67,10 @@ figure > image {
 
 
 
+[hidden] {
+  display: none !important;
+}
+
 .submenu {
   background-color: #ad3e36;
   color: #ffffff;
