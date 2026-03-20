@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* GENERAL STYLES */
+body {
+  margin: 0 12.5% 10vh;
+  background-color: /*#ad3e36 autumn red*/#faefe1; /* paper */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+}
