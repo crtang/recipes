@@ -1,3 +1,19 @@
+/* IMPORTS */
+@font-face {
+  font-family: 'Avante';
+  src: url('../fonts/Avante/Avante-1jvmg.otf');
+}
+
+@font-face {
+  font-family: 'Carrois Gothic';
+  src: url('../fonts/Carrois_Gothic/CarroisGothic-Regular.ttf');
+}
+
+
+
+
+/* GLOBAL */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,9 +27,51 @@
 /* GENERAL STYLES */
 body {
   margin: 0 12.5% 10vh;
-  background-color: /*#ad3e36 autumn red*/#faefe1; /* paper */
+  background-color: #faefe1; /* old paper */
+}
+
+header {
+  background-color: #ad3e36; /* autumn red */
+  color: #ffffff;
+}
+
+nav > a {
+  color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: serif;
+  font-family: 'Avante', serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+nav,
+p {
+  padding: 10px;
+}
+
+nav,
+p,
+figcaption,
+ol > li,
+ul > li {
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+nav > a:visited {
+  color: #f0b000; /* gingko leaves*/
+}
+
+figure > image {
+  max-width: 66.67%;
+}
+
+
+
+.submenu {
+  background-color: #ad3e36;
+  color: #ffffff;
+}
+
+.center {
+  text-align: center;
 }
