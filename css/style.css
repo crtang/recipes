@@ -61,7 +61,7 @@ nav > a:visited {
   color: #f0b000; /* gingko leaves*/
 }
 
-figure > image {
+img {
   max-width: 66.67%;
 }
 
