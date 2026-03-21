@@ -46,7 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6,
 nav,
 p,
-figure {
+figure,
+li {
   padding: 10px;
 }
 
@@ -64,6 +65,11 @@ nav > a:visited {
 
 img {
   max-width: 66.67%;
+}
+
+ol, 
+ul {
+  padding: 20px;
 }
 
 
